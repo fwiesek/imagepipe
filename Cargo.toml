@@ -22,10 +22,7 @@ log = "0.4"
 num-traits = "0.2"
 image = "0.24"
 rawloader = { git = "https://github.com/fwiesek/rawloader" }
-
-[dependencies.multicache]
-version = "0.6.0"
-path = "../multicache"
+multicache = "0.6.0"
 
 [profile.dev]
 opt-level = 3
